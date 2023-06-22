@@ -1,6 +1,3 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.nio.Buffer;
 
 // Задача 1. Дана строка sql-запроса "select * from students where ". 
 // Сформируйте часть WHERE этого запроса, используя StringBuilder. Данные для фильтрации приведены ниже в виде json-строки.
@@ -12,7 +9,7 @@ public class Task1 {
     String line1=line.replace("{", "");
     String line2=line1.replace("}", "");
     String line3=line2.replaceAll("\"", "");
-    System.out.println(line3);
+    
     StringBuilder result=new StringBuilder("select * from students where ");
 
     String [] arrayData=line3.split(", ");
@@ -35,25 +32,6 @@ public class Task1 {
     return result;
     
    } 
-   // Считывание строк с файла
-   public static String [] ReadLineFromFile(String pathway) throws Exception{
-    BufferedReader br = new BufferedReader(new FileReader(pathway));
-    String str;
-    int size=0;
-    while ((str=br.readLine()) !=null) {
-        size +=1;
-        }
-    br.close();
-    String [] listData = new String[size];
-
-    int i=0;
-    BufferedReader br1 = new BufferedReader(new FileReader(pathway));
-    while ((str=br1.readLine()) !=null) {
-        listData[i]=str;
-        i+=1;
-        }
-    br1.close();
-    return listData;
-   }
+   
 
 }
