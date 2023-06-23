@@ -1,0 +1,20 @@
+июн. 24, 2023 12:44:00 AM Task2 LoggerOfClass
+INFO: Test log1
+июн. 24, 2023 12:44:00 AM Task2 bubbleSort
+INFO: Переставлен элемент
+июн. 24, 2023 12:44:00 AM Task2 bubbleSort
+INFO: Переставлен элемент
+июн. 24, 2023 12:44:00 AM Task2 bubbleSort
+INFO: Переставлен элемент
+июн. 24, 2023 12:44:00 AM Task2 bubbleSort
+INFO: Переставлен элемент
+июн. 24, 2023 12:44:00 AM Task2 bubbleSort
+INFO: Переставлен элемент
+июн. 24, 2023 12:44:00 AM Task2 bubbleSort
+INFO: Переставлен элемент
+июн. 24, 2023 12:44:00 AM Task2 bubbleSort
+INFO: Переставлен элемент
+июн. 24, 2023 12:44:00 AM Task2 bubbleSort
+INFO: Переставлен элемент
+июн. 24, 2023 12:44:00 AM Task2 bubbleSort
+INFO: Переставлен элемент
